@@ -5,69 +5,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade03</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
 <body>
 
+    <br />
+    <h1>Tabela 1</h1>
+    <table id="table1">
+        <tr>
+            <th>No.</th>
+            <th>Nome Completo</th>
+            <th>Cargo</th>
+            <th>Salario</th>
+            <th>Tipo</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Satya Nadella</td>
+            <td>CEO Microsoft</td>
+            <td>10000</td>
+            <td>Membro</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jeff Bezos</td>
+            <td>Fundador Amazon</td>
+            <td>12000</td>
+            <td rowspan="3">Fundador</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Fundador Googlet</td>
+            <td>11000</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mark Zuckerberg</td>
+            <td>Fundador Facebookt</td>
+            <td>13000</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total:</td>
+            <td></td>
+        </tr>
+    </table>
+    <span id="sumV"></span>
+    <br />
 
     <br />
-    <br />
-    <br />
-    <table border="1">
+    <h1>Tabela 2</h1>
+    <table>
         <tr>
-            <th colspan="3">Frutas</th>
+            <th rowspan="2"></th>
+            <th colspan="2">Média.</th>
+            <th rowspan="2">Porcentagem</th>
         </tr>
         <tr>
-            <td rowspan="2">Recomendado</td>
-            <td>Alface</td>
-            <td>Amendoim</td>
+            <td>Altura</td>
+            <td>Peso</td>
         </tr>
         <tr>
-            <td>Tomate</td>
-            <td>Castanha</td>
+            <td>Homens</td>
+            <td>1,71</td>
+            <td>80</td>
+            <td>57%</td>
         </tr>
         <tr>
-            <td>Contra</td>
-            <td>Beterraba</td>
-            <td>Amendoa</td>
+            <td>Mlheres</td>
+            <td>1,60</td>
+            <td>60</td>
+            <td>43%</td>
         </tr>
     </table>
     <br />
 
     <br />
-    <table border="1">
-        <thead>
-            <tr>
-                <th rowspan="2">Produto</th>
-                <th colspan="2">Preço</th>
-                <th rowspan="2">Cor</th>
-            </tr>
-            <tr>
-                <th>À vista</th>
-                <th>À prazo</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Camisa</td>
-                <td>R$89,90</td>
-                <td>R$99,90</td>
-                <td>Branca</td>
-            </tr>
-            <tr>
-                <td>Sapato</td>
-                <td>R$109,90</td>
-                <td>R$129,90</td>
-                <td>Preto</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="4">*Valores válidos para todas as lojas</td>
-            </tr>
-        </tfoot>
+    <h1>Tabela 3</h1>
+    <table id="table3">
+        <tr>
+            <th>I</th>
+            <th>II</th>
+            <th>III</th>
+            <th>IV</th>
+            <th>V</th>
+            <th>VII</th>
+            <th>VIII</th>
+        </tr>
+        <tr>
+            <td bgcolor="green">H</td>
+            <td></td>
+            <td colspan="3" rowspan="3" valign="top">Tabela Periódica</td>
+            <td></td>
+            <td bgcolor="yellow">He</td>
+        </tr>
+        <tr>
+            <td>Li</td>
+            <td>Be</td>
+            <td>B</td>
+            <td bgcolor="yellow">Ne</td>
+        </tr>
+        <tr>
+            <td>Na</td>
+            <td>Me</td>
+            <td>Al</td>
+            <td bgcolor="yellow">Ar</td>
+        </tr>
+        <tr>
+            <td>K</td>
+            <td>Ca</td>
+            <td>Sc</td>
+            <td>Ti</td>
+            <td>V</td>
+            <td>Ga</td>
+            <td bgcolor="yellow">Kr</td>
+        </tr>
     </table>
     <br />
 
