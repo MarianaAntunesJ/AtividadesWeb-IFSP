@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade03</title>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
-<body>
+<body onload="getSum()">
 
     <br />
     <h1>Tabela 1</h1>
@@ -25,34 +25,33 @@
             <td>1</td>
             <td>Satya Nadella</td>
             <td>CEO Microsoft</td>
-            <td>10000</td>
+            <td id="elem1">10000</td>
             <td>Membro</td>
         </tr>
         <tr>
             <td>2</td>
             <td>Jeff Bezos</td>
             <td>Fundador Amazon</td>
-            <td>12000</td>
+            <td id="elem2">12000</td>
             <td rowspan="3">Fundador</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Larry Page</td>
-            <td>Fundador Googlet</td>
-            <td>11000</td>
+            <td>Fundador Google</td>
+            <td id="elem3">11000</td>
         </tr>
         <tr>
             <td>4</td>
             <td>Mark Zuckerberg</td>
-            <td>Fundador Facebookt</td>
-            <td>13000</td>
+            <td>Fundador Facebook</td>
+            <td id="elem4">13000</td>
         </tr>
         <tr>
             <td colspan="3">Total:</td>
-            <td></td>
+            <td id="total"></td>
         </tr>
     </table>
-    <span id="sumV"></span>
     <br />
 
     <br />
