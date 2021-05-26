@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+}
+
+h1{
+    /*
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin: 20px 50px 40px 30px;
+    */
+    margin: 10px;
+ 
+    /*
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    */
+
+    padding: 20px;
+
+    /*
+    border-top-width: 30px;
+    border-top-style: solid;
+    border-top-color: red;
+    */
+    /*
+    border-top: 10px solid red;
+    border-right: 4px dotted blue;
+    border-bottom:  5px solid black;
+    border-left: 2px dotted yellow;
+    */
+
+    border: 5px solid red;
+
+    background-color: tomato;
+}
+
+p{
+    margin: 30px;
+    background-color: blueviolet;
+    padding: 20px;
+}
